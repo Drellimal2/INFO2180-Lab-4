@@ -1,3 +1,7 @@
+/*Author: Dane Miller
+ID: 620070179
+Date: 03/10/2014*/
+
 "use strict";
 var canwin = true;
 
