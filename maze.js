@@ -57,6 +57,8 @@ var resetgame = function(){
 };
 
 var outercheat = function(){
-    $$("h2#status")[0].innerText ="Please stay within the maze.\nClick S to reset";
-    canwin = false;
+    if(!win){
+        $$("h2#status")[0].innerText ="Please stay within the maze.\nClick S to reset";
+        canwin = false;
+    }
 }
